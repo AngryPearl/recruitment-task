@@ -9,7 +9,19 @@
     ],
     "autoload": {
         "psr-4": {
-            "PragmaGoTech\\Interview\\": "src/"
+            "PragmaGoTech\\Interview\\": "src/",
+            "PragmaGoTech\\Interview\\database\\": "database/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PragmaGoTech\\Interview\\Test\\": "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "require": {
+        "ext-sqlite3": "*"
     }
 }
